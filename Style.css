@@ -1,0 +1,11 @@
+#heading {
+    color: rgb(255, 255, 255);
+}
+#paragraph1 {
+    font-size: medium;
+    color: chartreuse;
+    text-justify: auto;
+}
+#paragraph1 {
+    color: blue;
+}

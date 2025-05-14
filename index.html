@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoverse Car Rental</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            flex-grow: 1;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            background-color: #4CAF50;
+            color: white;
+        }
+        .button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <header>
+        <h1 id="heading"> Autoverse Car Rental</h1>
+    </header>
+   
+    <div class="container">
+        <button class="button" onclick="window.location.href='view_cars.php'">View Cars</button>
+        <button class="button" onclick="window.location.href='register.php'">Register as Car Renter</button>
+        <button class="button" onclick="window.location.href='login.php'">Login</button>
+        <section class="topbanner">
+            <p>
+                <img src="images/topbanner.jpg"
+                {width: 100%;
+                height: auto;
+            </p>
+        </section>
+
+        <section>
+            <p id="paragraph1">
+            Greetings from Autoverse, the best place to rent a car in South Africa! Take your time exploring the magnificent coastlines, energetic cities, and breathtaking landscapes. We provide a wide range of well-kept cars to meet all your travel requirements, whether you're taking a family holiday or a business trip. We make your trip easy and fun with affordable prices, a variety of rental options, and first-rate customer support. Begin your journey now and join us in exploring South Africa's splendor! 
+           </p>
+        </section>
+    </div>
+    <section class="vehicle-gallery">
+        <h2>Our Vehicle Gallery</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="images/sedan.png" alt="Sedan">
+                <p>Sedan - Comfortable and stylish</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/suv.png" alt="SUV">
+                <p>SUV - Spacious and powerful</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/truck.png" alt="Truck">
+                <p>Truck - Durable and reliable</p>
+            </div>
+            <div class="gallery-item">
+                <img src="images/convertible.webp" alt="Convertible">
+                <p>Convertible - Fun and sporty</p>
+            </div>
+        </div>
+    </section>
+    <style>
+        .vehicle-gallery {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .gallery-item {
+            text-align: center;
+            max-width: 200px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+    </style>
+    <footer>
+        <p>&copy; 2025 Autoverse Car Rental Platform. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
